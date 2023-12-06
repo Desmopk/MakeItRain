@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5FC363"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="156dp"
+        android:layout_height="43dp"
+        android:background="#FFB300"
+        android:backgroundTint="#FDD835"
+        android:gravity="center"
+        android:text="@string/you_have"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#FDD835"
+        android:gravity="center"
+        android:soundEffectsEnabled="true"
+        android:text="@string/money"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:circularflow_radiusInDP="12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.025"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/inshow"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#731E88"
+        android:ellipsize="none"
+        android:text="@string/show"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/money"
+        app:layout_constraintVertical_bias="0.381"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/mir"
+        android:layout_width="203dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#781E8F"
+        android:onClick="showino"
+        android:text="@string/make_it_rain"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#4A0A5A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inshow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/money"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <Button
+        android:id="@+id/reson"
+        android:layout_width="121dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#652277"
+        android:text="@string/reset"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A121C3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inshow"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="205dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:textColor="#DC0404"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/reson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inshow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

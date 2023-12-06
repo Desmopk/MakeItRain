@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Makeitrain</string>
+    <string name="you_have">You Have:</string>
+    <string name="money">$5000</string>
+    <string name="make_it_rain">Make it Rain</string>
+    <string name="show">Show Info</string>
+    <string name="reset">Reset</string>
+    <string name="arnav_chutia">Arnav Chutia</string>
+    <string name="app_info">congrats!!</string>
+    <string name="app_tuff">"                                      Way To Go!!"</string>
+    <string name="kpp">Hell!!! YEAH!!!</string>
+    <string name="kpp1">HELL!!! YEAH!!!</string>
+</resources>
